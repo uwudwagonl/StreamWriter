@@ -19,5 +19,5 @@ namespace StreamWriter.Web.Controllers
             string text = await _dailyChallengeTextGenerator.GetText();
             return text;
         }
-    }
+    } //pex
 }

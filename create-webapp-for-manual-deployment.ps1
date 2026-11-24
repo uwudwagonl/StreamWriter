@@ -24,7 +24,7 @@ az group create --name $ResourceGroup --location $Location | Out-Null
 # Container App Environment als Rahmen für Container Apps anlegen
 az containerapp env create `
   --resource-group $ResourceGroup `
-  --name $EnvironmentName `
+  --name $EnvironmentName ` 
   --location $Location | Out-Null
 
 # Container App mit Platzhalter-Image anlegen
